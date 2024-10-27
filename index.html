@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <section id="games">
+    <header>
+      <img src="./images/wraper.png" alt="game picture" class="w-100">
+    </header>
+    <nav class="navbar navbar-expand-lg  position-sticky top-0 z-3 col-md-6 col-lg-9 text-uppercase">
+      <div class="container">
+        <div class="navbar-brand">
+          <img src="./images/logo-sm.png" alt="" class="logo">
+          <h1 class="d-inline-block text-white">GAME REVIEWS</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active mmorpg" aria-current="page" data-category="mmorpg" href="#">mmorpg</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link shooter" data-category="shooter" href="#">shooter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sailing" data-category="sailing" href="#">sailing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link permadeath" data-category="permadeath" href="#">permadeath</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link superhero" data-category="superhero" href="#">superhero</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pixe" data-category="pixel" href="#">pixel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-5">
+      <section class="position-relative games" >
+        <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="cards">
+          <!-- <div class="col">
+            <div class="card h-100 bg-transparent text-white" role="button">
+               <div  class="card-body">
+                  <figure class="position-relative">
+                     <img class="card-img-top object-fit-cover h-100" src="./images/thumbnail.jpg" />
+                  </figure>
+                  <figcaption>
+                     <div class="hstack justify-content-between">
+                        <h3 class="small ">Tarisland</h3>
+                        <span class="badge text-bg-primary p-2">Free</span>
+                     </div>
+                     <p class="card-text small text-center opacity-50">
+                      A,cross-platform,MMORPG,developed,by,Level,Infinite,and
+                     </p>
+                  </figcaption>
+               </div>
+               <footer class="card-footer small hstack justify-content-between">
+                  <span class="badge badge-color">MMORG</span>
+                  <span class="badge badge-color">pc (Windows)</span>
+               </footer>
+            </div>
+         </div> -->
+        </div>
+      </section>
+  </section> 
+      <section class="details" id="details">
+        <div class="container">
+          <header class="hstack justify-content-between">
+              <h1 class="text-center h3 py-4">Details Game</h1>
+              <button class="btn-close btn-close-white" id="btnClose"></button>
+          </header>
+          <div class="row g-4" id="detailsContent">
+              <!-- <div class="col-md-4">
+              <img src="./images/thumbnail.jpg" class="w-100" alt="image details">
+              </div>
+              <div class="col-md-8">
+                  <h3>Title: Throne And Liberty</h3>
+                  <p>Category: <span class="badge text-bg-info"> MMORPG</span> </p>
+                  <p>Platform: <span class="badge text-bg-info"> Windows</span> </p>
+                  <p>Status: <span class="badge text-bg-info"> Live</span> </p>
+                  <p class="small">Throne and Liberty is a free-to-play multi-platform MMORPG from NCSoft and Amazon Games. The open-world game features large-scale PvPvE in which players can explore everything from sprawling plains to mountain peaks.To survive, players will need to be able to adapt and make decisions based on weather, time of day, and – of course – what other players are doing. The ultimate goal is to claim the throne by defeating Kazar. To do this, players will need to make use of the ability to transform and take the battle to not just the land, but also the sea and air. The game features cross-play bringing together players on PC, Xbox Series X}S, and PlayStation 5. Players on the PS5 can choose to disable cross-play. It’s also worth noting that cross-progression is not supported.</p>
+                  <a class="btn btn-outline-warning" target="_blank" href="https://www.freetogame.com/open/throne-and-liberty">Show Game</a>
+              </div> -->
+            </div>
+        </div>
+      </section>
+      <section class="d-none justify-content-center align-items-center loader">
+        <div class="lds-spinner "><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      </section>
+    </main>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js" type="module"></script>
+</body>
+</html>
